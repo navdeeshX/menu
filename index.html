@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INAARA - Premium Dining Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="restaurant-logo">
+                <h1>INAARA</h1>
+                <div class="stars">★★★</div>
+                <p class="tagline">Oriental Palace Resorts • Udaipur</p>
+            </div>
+            
+            <div class="menu-controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search dishes..." class="search-input">
+                    <span class="search-icon">🔍</span>
+                </div>
+                <div class="toggle-group">
+                    <div class="veg-toggle">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="vegToggle">
+                            <span class="toggle-slider"></span>
+                        </label>
+                        <span class="toggle-label">Vegetarian Only</span>
+                    </div>
+                    <div class="image-toggle">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="imageToggle" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                        <span class="toggle-label">Show Images</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Menu Categories -->
+        <nav class="category-nav">
+            <!-- Categories will be populated by JavaScript -->
+        </nav>
+
+        <!-- Search Results Info -->
+        <div class="search-info" id="searchInfo" style="display: none;">
+            <span id="searchResults"></span>
+            <button class="clear-search" id="clearSearch">Clear Search</button>
+        </div>
+
+        <!-- Menu Items -->
+        <main class="menu-container">
+            <div id="menuItems" class="menu-grid">
+                <!-- Items will be populated by JavaScript -->
+            </div>
+        </main>
+
+        <!-- No Results Message -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <h3>No dishes found</h3>
+            <p>Try adjusting your search or filters</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Breakfast: 8:00am - 10:00am | Lunch: 12:30pm - 3:00pm | Dinner: 8:00pm - 10:30pm</p>
+            <p>Oriental Palace Resorts, Udaipur | +91-9352500408 | Government taxes applicable</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
