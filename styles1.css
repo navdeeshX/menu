@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Inaara Brand Colors */
+    --primary-maroon: #8B2635;     /* Deep maroon from logo */
+    --accent-gold: #D4AF37;        /* Gold from logo text */
+    --warm-gold: #F4D03F;          /* Lighter gold variant */
+    --rich-burgundy: #722F37;      /* Darker maroon shade */
+    --soft-cream: #FBF9F7;         /* Light background */
+    --dark-charcoal: #1C1C1C;      /* Text color */
+    --muted-gray: #6B6B6B;         /* Secondary text */
+    --subtle-border: rgba(139, 38, 53, 0.2);  /* Maroon with opacity */
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-medium: rgba(139, 38, 53, 0.1);  /* Maroon shadow */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, var(--soft-cream) 0%, #F5F2EE 100%);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header Styles with Brand Colors */
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    padding: 2rem 0;
+    border-bottom: 2px solid var(--primary-maroon);
+    background: linear-gradient(45deg, var(--soft-cream) 0%, rgba(139, 38, 53, 0.02) 100%);
+    border-radius: 8px;
+}
+
+.restaurant-logo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: var(--primary-maroon);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(139, 38, 53, 0.1);
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.3em;
+    text-shadow: 1px 1px 2px rgba(212, 175, 55, 0.3);
+}
+
+.tagline {
+    font-size: 0.95rem;
+    color: var(--rich-burgundy);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.menu-controls {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+/* Search Container with Brand Colors */
+.search-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.search-input {
+    width: 280px;
+    padding: 0.8rem 2.5rem 0.8rem 1rem;
+    border: 2px solid var(--subtle-border);
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    background: white;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: var(--primary-maroon);
+    box-shadow: 0 0 0 3px rgba(139, 38, 53, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary-maroon);
+    pointer-events: none;
+}
+
+/* Toggle Controls with Brand Colors */
+.toggle-group {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--muted-gray);
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 3px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-medium);
+}
+
+input:checked + .toggle-slider {
+    background: var(--primary-maroon);
+}
+
+input:checked + .toggle-slider:before {
+    transform: translateX(30px);
+}
+
+.toggle-label {
+    font-size: 0.9rem;
+    color: var(--rich-burgundy);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Category Navigation with Brand Colors */
+.category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid var(--subtle-border);
+    background: transparent;
+    color: var(--rich-burgundy);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+
+.category-btn:hover {
+    background: var(--accent-gold);
+    color: white;
+    border-color: var(--accent-gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+.category-btn.active {
+    background: var(--primary-maroon);
+    color: white;
+    border-color: var(--primary-maroon);
+    box-shadow: 0 4px 12px rgba(139, 38, 53, 0.3);
+}
+
+/* Search Info with Brand Colors */
+.search-info {
+    background: linear-gradient(45deg, rgba(139, 38, 53, 0.05) 0%, rgba(212, 175, 55, 0.05) 100%);
+    border: 1px solid var(--subtle-border);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--rich-burgundy);
+}
+
+.clear-search {
+    background: var(--primary-maroon);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-search:hover {
+    background: var(--rich-burgundy);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(139, 38, 53, 0.3);
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Menu Item Cards with Brand Colors */
+.menu-item {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px var(--shadow-light);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(139, 38, 53, 0.1);
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(139, 38, 53, 0.15);
+    border-color: var(--accent-gold);
+}
+
+.menu-item.hidden {
+    display: none;
+}
+
+.item-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover .item-image {
+    transform: scale(1.02);
+}
+
+.item-content {
+    padding: 1.8rem;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+    gap: 1rem;
+}
+
+.item-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--primary-maroon);
+    line-height: 1.3;
+    flex: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.item-name:hover {
+    color: var(--accent-gold);
+}
+
+.item-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+    white-space: nowrap;
+    background: linear-gradient(45deg, var(--accent-gold), var(--warm-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.item-description {
+    font-size: 0.95rem;
+    color: var(--muted-gray);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--rich-burgundy);
+}
+
+.item-origin {
+    font-weight: 500;
+    color: var(--primary-maroon);
+}
+
+.dietary-indicators {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.dietary-tag {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.dietary-tag.veg {
+    background: linear-gradient(45deg, #22c55e, #16a34a);
+    color: white;
+    border-color: #16a34a;
+}
+
+.dietary-tag.vegan {
+    background: linear-gradient(45deg, #16a34a, #15803d);
+    color: white;
+    border-color: #15803d;
+}
+
+.dietary-tag.gf {
+    background: linear-gradient(45deg, var(--accent-gold), var(--warm-gold));
+    color: white;
+    border-color: var(--accent-gold);
+}
+
+/* Search Highlighting with Brand Colors */
+.search-highlight {
+    background: linear-gradient(120deg, rgba(212, 175, 55, 0.3) 0%, rgba(212, 175, 55, 0.1) 100%);
+    padding: 0.1rem 0.2rem;
+    border-radius: 3px;
+    font-weight: 600;
+    color: var(--primary-maroon);
+}
+
+/* No Results */
+.no-results {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--rich-burgundy);
+}
+
+.no-results h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-maroon);
+}
+
+/* Footer with Brand Colors */
+.footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 2px solid var(--primary-maroon);
+    background: linear-gradient(45deg, rgba(139, 38, 53, 0.02) 0%, var(--soft-cream) 100%);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: var(--rich-burgundy);
+    line-height: 1.8;
+}
+
+/* Animation for search results with brand colors */
+.menu-item.search-match {
+    animation: searchPulse 0.6s ease-out;
+}
+
+@keyframes searchPulse {
+    0% {
+        transform: scale(1);
+        box-shadow: var(--shadow-light);
+    }
+    50% {
+        transform: scale(1.02);
+        box-shadow: 0 8px 25px rgba(139, 38, 53, 0.15);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: var(--shadow-light);
+    }
+}
+
+/* Image hiding styles */
+.menu-grid.hide-images .item-image {
+    display: none;
+}
+
+.menu-grid.hide-images .menu-item {
+    border-radius: 12px;
+    overflow: visible;
+}
+
+.menu-grid.hide-images .item-content {
+    padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 1rem;
+  }
+  
+  .restaurant-logo h1 {
+      font-size: 2.5rem;
+  }
+  
+  .menu-controls {
+      position: static;
+      align-items: center;
+      margin-top: 1.5rem;
+      width: 100%;
+  }
+  
+  .search-input {
+      width: 250px;
+  }
+  
+  .toggle-group {
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  /* 2 columns on tablet */
+  .menu-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.2rem;
+  }
+  
+  .item-content {
+      padding: 1.2rem;
+  }
+  
+  .category-nav {
+      gap: 0.3rem;
+  }
+  
+  .category-btn {
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+  }
+  
+  .search-info {
+      flex-direction: column;
+      gap: 0.8rem;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .restaurant-logo h1 {
+      font-size: 2rem;
+      letter-spacing: 0.1em;
+  }
+  
+  /* 2 columns on mobile phones */
+  .menu-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+  }
+  
+  /* Adjust item styling for smaller mobile cards */
+  .item-content {
+      padding: 1rem;
+  }
+  
+  .item-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.3rem;
+      margin-bottom: 0.6rem;
+  }
+  
+  .item-name {
+      font-size: 1rem;
+      line-height: 1.2;
+  }
+  
+  .item-price {
+      font-size: 1rem;
+      font-weight: 700;
+  }
+  
+  .item-description {
+      font-size: 0.8rem;
+      line-height: 1.4;
+      margin-bottom: 0.8rem;
+      /* Limit description to 2 lines on mobile */
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+  }
+  
+  .item-details {
+      font-size: 0.75rem;
+      gap: 0.5rem;
+  }
+  
+  .item-origin {
+      font-size: 0.75rem;
+  }
+  
+  .dietary-tag {
+      width: 16px;
+      height: 16px;
+      font-size: 0.6rem;
+  }
+  
+  /* Adjust image height for mobile 2-column layout */
+  .item-image {
+      height: 140px;
+  }
+  
+  .search-input {
+      width: 200px;
+      font-size: 0.8rem;
+      padding: 0.7rem 2rem 0.7rem 0.8rem;
+  }
+  
+  .toggle-group {
+      flex-direction: column;
+      gap: 0.8rem;
+  }
+  
+  .toggle-label {
+      font-size: 0.8rem;
+  }
+  
+  .category-btn {
+      padding: 0.5rem 0.8rem;
+      font-size: 0.75rem;
+  }
+}
+
+/* Extra small screens (very small phones) */
+@media (max-width: 360px) {
+  .menu-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.6rem;
+  }
+  
+  .item-content {
+      padding: 0.8rem;
+  }
+  
+  .item-name {
+      font-size: 0.9rem;
+  }
+  
+  .item-description {
+      font-size: 0.75rem;
+      -webkit-line-clamp: 2;
+  }
+  
+  .item-image {
+      height: 120px;
+  }
+  
+  .restaurant-logo h1 {
+      font-size: 1.8rem;
+  }
+}
+
+/* Hide images state adjustments for mobile */
+.menu-grid.hide-images .menu-item {
+    border-radius: 8px;
+}
+
+.menu-grid.hide-images .item-content {
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+    .menu-grid.hide-images .item-content {
+        padding: 0.8rem;
+    }
+    
+    .menu-grid.hide-images .item-description {
+        -webkit-line-clamp: 3; /* Allow more lines when no image */
+    }
+}
+
+/* Smooth transitions for category filtering with brand colors */
+.menu-item {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.menu-item.filtering {
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+/* Print styles with brand colors */
+@media print {
+    .menu-controls, 
+    .category-nav, 
+    .search-info,
+    .footer { 
+        display: none !important; 
+    }
+    
+    .restaurant-logo h1 {
+        color: var(--primary-maroon) !important;
+        font-size: 2rem;
+    }
+    
+    .menu-item { 
+        break-inside: avoid; 
+        page-break-inside: avoid;
+        margin-bottom: 1rem;
+        border: 2px solid var(--primary-maroon);
+    }
+    
+    .item-name {
+        color: var(--primary-maroon) !important;
+    }
+    
+    .item-price {
+        color: var(--accent-gold) !important;
+    }
+}

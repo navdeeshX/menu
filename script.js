@@ -347,7 +347,7 @@ const noResults = document.getElementById('noResults');
 // Current state
 let currentCategory = 'all';
 let isVegOnly = false;
-let showImages = true;
+let showImages = false;
 let searchQuery = '';
 
 // Initialize the menu
@@ -548,7 +548,11 @@ function renderMenu() {
 }
 
 // Initialize when page loads
-document.addEventListener('DOMContentLoaded', initializeMenu);
+// document.addEventListener('DOMContentLoaded', initializeMenu);
+document.addEventListener('DOMContentLoaded', () => {
+    initializeMenu();
+    optimizeForMobile();
+});
 
 // Add smooth scroll behavior for better UX
 // Add smooth scroll behavior for better UX
@@ -813,14 +817,39 @@ window.addEventListener('scroll', () => {
  addPrintStyles();
  
  // Add service worker for offline functionality (optional)
- if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(registration => {
-                console.log('SW registered: ', registration);
-            })
-            .catch(registrationError => {
-                console.log('SW registration failed: ', registrationError);
-            });
-    });
- }
+//  if ('serviceWorker' in navigator) {
+//     window.addEventListener('load', () => {
+//         navigator.serviceWorker.register('/sw.js')
+//             .then(registration => {
+//                 console.log('SW registered: ', registration);
+//             })
+//             .catch(registrationError => {
+//                 console.log('SW registration failed: ', registrationError);
+//             });
+//     });
+//  }
+
+ function optimizeForMobile() {
+    const isMobile = window.innerWidth <= 480;
+    const menuItems = document.querySelectorAll('.menu-item');
+    
+    if (isMobile) {
+        menuItems.forEach(item => {
+            const description = item.querySelector('.item-description');
+            if (description && description.textContent.length > 80) {
+                // Truncate long descriptions on mobile
+                const truncated = description.textContent.substring(0, 80) + '...';
+                description.textContent = truncated;
+            }
+        });
+    }
+}
+
+// Handle window resize
+let resizeTimeout;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        optimizeForMobile();
+    }, 250);
+});
