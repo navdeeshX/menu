@@ -5,7 +5,7 @@ const menuData = {
             name: "Artisanal Coffee Experience",
             description: "Premium roasted coffee beans, expertly brewed to perfection",
             price: "₹79",
-            image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80",
             origin: "House Blend",
             dietary: ["veg", "vegan"],
             category: "beverages"
@@ -412,7 +412,7 @@ function setupEventListeners() {
 // Toggle image visibility
 function toggleImages() {
     const menuGrid = document.getElementById('menuItems');
-    if (showImages) {
+    if (imageToggle.checked) {
         menuGrid.classList.remove('hide-images');
     } else {
         menuGrid.classList.add('hide-images');
