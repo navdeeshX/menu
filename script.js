@@ -308,7 +308,7 @@ const menuData = {
             name: "Pav Bhaji Mumbai",
             description: "Mixed vegetable curry with buttered pav bread rolls",
             price: "₹299",
-            image: "https://images.unsplash.com/photo-1626132647523-66f9bf380027?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=400&q=80",
             origin: "Mumbai Street",
             dietary: ["veg"],
             category: "breakfast"
@@ -326,7 +326,7 @@ const menuData = {
             name: "Club Sandwich Gourmet",
             description: "Multi-layered sandwich with fresh vegetables and cheese",
             price: "₹299",
-            image: "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1709689155464-90d6ca1e9f62?w=400&q=80",
             origin: "Continental Style",
             dietary: ["veg"],
             category: "breakfast"
