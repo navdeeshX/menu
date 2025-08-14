@@ -98,7 +98,7 @@ const menuData = {
             name: "Chicken Tikka Premium",
             description: "Tender chicken morsels in aromatic spice blend, charcoal grilled",
             price: "₹449",
-            image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&q=80",
             origin: "Traditional Recipe",
             dietary: [],
             category: "appetizers"
@@ -176,7 +176,7 @@ const menuData = {
             name: "Malai Kofta Délice",
             description: "Cottage cheese dumplings in rich cashew-tomato gravy",
             price: "₹399",
-            image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&q=80",
             origin: "Royal Kitchen",
             dietary: ["veg"],
             category: "mains"
@@ -194,7 +194,7 @@ const menuData = {
             name: "Butter Chicken Classique",
             description: "Tender chicken in signature tomato-butter sauce with cream",
             price: "₹649",
-            image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&q=80",
             origin: "Delhi Heritage",
             dietary: [],
             category: "mains"
@@ -242,7 +242,7 @@ const menuData = {
             name: "Gulab Jamun Classique",
             description: "Golden milk dumplings soaked in aromatic rose-cardamom syrup",
             price: "₹129",
-            image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1695568180070-8b5acead5cf4?w=400&q=80",
             origin: "Indian Sweet Heritage",
             dietary: ["veg"],
             category: "desserts"
@@ -251,7 +251,7 @@ const menuData = {
             name: "Rasgulla Bengali",
             description: "Soft cottage cheese balls in delicate sugar syrup",
             price: "₹149",
-            image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?w=400&q=80",
             origin: "Bengal Tradition",
             dietary: ["veg"],
             category: "desserts"
