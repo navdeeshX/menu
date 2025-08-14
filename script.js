@@ -221,7 +221,7 @@ const menuData = {
             name: "Veg Biryani Aromatic",
             description: "Fragrant basmati rice layered with vegetables and saffron",
             price: "₹399",
-            image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400&q=80",
             origin: "Hyderabad Style",
             dietary: ["veg"],
             category: "mains"
@@ -230,7 +230,7 @@ const menuData = {
             name: "Chicken Biryani Royal",
             description: "Premium basmati rice with succulent chicken and exotic spices",
             price: "₹475",
-            image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=400&q=80",
             origin: "Lucknow Tradition",
             dietary: [],
             category: "mains"
