@@ -52,10 +52,10 @@ body {
 }
 
 .header .logo-container img {
-  height: 180px;
+  height: 200px;
   width: auto;
   border-radius: 50%;
-  border: 3px solid var(--primary-maroon);
+  /* border: 3px solid var(--primary-maroon); */
   box-shadow: 0 4px 12px rgba(139, 38, 53, 0.2);
   transition: transform 0.3s ease;
 }
@@ -530,7 +530,7 @@ input:checked + .toggle-slider:before {
   }
   
   .header .logo-container img {
-    height: 150px;
+    height: 200px;
   }
   
   .search-input {
@@ -570,7 +570,7 @@ input:checked + .toggle-slider:before {
   }
   
   .header .logo-container img {
-    height: 120px;
+    height: 180px;
   }
   
   .search-input {
@@ -621,7 +621,7 @@ input:checked + .toggle-slider:before {
   }
   
   .header .logo-container img {
-    height: 100px;
+    height: 180px;
   }
   
   .search-input {
