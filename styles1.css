@@ -335,7 +335,7 @@ input:checked + .toggle-slider:before {
   color: var(--primary-maroon);
   line-height: 1.3;
   flex: 1;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.3s ease;
 }
 
@@ -406,6 +406,12 @@ input:checked + .toggle-slider:before {
 
 .dietary-tag.gf {
   background: linear-gradient(45deg, var(--accent-gold), var(--warm-gold));
+  color: white;
+  border-color: var(--accent-gold);
+}
+
+.dietary-tag.non-veg {
+  background: linear-gradient(45deg, #a31616bd, #80151563);
   color: white;
   border-color: var(--accent-gold);
 }
