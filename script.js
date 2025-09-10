@@ -1580,6 +1580,50 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1608497750924-9d546f5a6e02?w=400&q=80"
     }
   ],
+  "rajasthani_main_course": [
+    {
+      "name": "Besan Gatta Curry",
+      "price": "₹299",
+      "category": "rajasthani_main_course",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1609328913287-68f3c56bff62?w=400&q=80"
+    },
+    {
+      "name": "Kadi Pakora",
+      "price": "₹249",
+      "category": "rajasthani_main_course",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1632823470161-64b3eebbc49b?w=400&q=80"
+    },
+    {
+      "name": "Papad Mangodi",
+      "price": "₹249",
+      "category": "rajasthani_main_course",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1589307004173-3c9528f8a5a0?w=400&q=80"
+    },
+    {
+      "name": "Papad Methi Jaisalmeri",
+      "price": "₹249",
+      "category": "rajasthani_main_course",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1645111727589-6aebadc177a2?w=400&q=80"
+    },
+    {
+      "name": "Chana Masala",
+      "price": "₹249",
+      "category": "rajasthani_main_course",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1604909052743-b13a1a5827d7?w=400&q=80"
+    },
+    {
+      "name": "Kadi Plain",
+      "price": "₹199",
+      "category": "rajasthani_main_course",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1631452180519-0700122972a1?w=400&q=80"
+    }
+   ],
   "raita_lassi": [
     {
       "name": "Curd / Dahi",
