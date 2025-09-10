@@ -1,1014 +1,1736 @@
 // Menu data from Inaara Restaurant with premium presentation
 const menuData = {
-  "chefs_special": [
-    {
-      "name": "Dal Bati Churma",
-      "description": "Traditional Rajasthani dish of dal, bati and sweet churma.",
-      "price": "₹399",
-      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-      "origin": "Rajasthani",
-      "dietary": ["veg"],
-      "category": "chefs_special"
-    },
-    {
-      "name": "Paneer Lababdar",
-      "description": "Rich and creamy paneer curry with aromatic spices.",
-      "price": "₹349",
-      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80",
-      "origin": "North Indian",
-      "dietary": ["veg"],
-      "category": "chefs_special"
-    },
-    {
-      "name": "Rajma Chawal Combo",
-      "description": "Delicious rajma curry served with steamed rice.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80",
-      "origin": "North Indian",
-      "dietary": ["veg"],
-      "category": "chefs_special"
-    },
-    {
-      "name": "Butter Chicken",
-      "description": "Classic butter chicken in creamy tomato gravy.",
-      "price": "₹449",
-      "image": "https://images.unsplash.com/photo-1631452180539-96aca7d48617?w=400&q=80",
-      "origin": "North Indian",
-      "dietary": ["non-veg"],
-      "category": "chefs_special"
-    },
-    {
-      "name": "Laal Maas",
-      "description": "Spicy Rajasthani lamb curry rich in flavors.",
-      "price": "₹499",
-      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&q=80",
-      "origin": "Rajasthani",
-      "dietary": ["non-veg"],
-      "category": "chefs_special"
-    }
-  ],
   "beverages": [
     {
-      "name": "Fresh Lime Soda",
-      "description": "Refreshing fizzy soda with a splash of fresh lime.",
-      "price": "₹79",
-      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&q=80",
-      "origin": "House Special",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
+      "name": "Soft Drinks (250ml)",
+      "description": "Refreshing carbonated beverage served chilled.",
+      "price": "₹49",
+      "image": "https://images.unsplash.com/photo-1582719478191-5b1e7a03e2f8?w=400&q=80",
+      "origin": "",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
     },
     {
-      "name": "Fresh lime water",
-      "description": "Cool and hydrating water infused with fresh lime.",
-      "price": "₹49",
-      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&q=80",
-      "origin": "House Special",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
+      "name": "Fresh Lime Soda",
+      "description": "Refreshing soda with fresh lime juice.",
+      "price": "₹79",
+      "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
+    },
+    {
+      "name": "Fresh Lime Water",
+      "description": "Fresh lime juice with water and sugar/salt.",
+      "price": "₹99",
+      "image": "https://images.unsplash.com/photo-1590080876395-0c84a7c8d2a8?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
     },
     {
       "name": "Soda (750ml)",
-      "description": "Classic soda served chilled for a fizzy refreshment.",
-      "price": "₹39",
-      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80",
-      "origin": "House Special",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
+      "description": "Large soda bottle.",
+      "price": "₹149",
+      "image": "https://images.unsplash.com/photo-1617196035297-d5e8a02c193f?w=400&q=80",
+      "origin": "",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
     },
     {
       "name": "Mojito Mint",
-      "description": "Zesty mint mojito with a tang of lime and soda.",
-      "price": "₹149",
-      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&q=80",
-      "origin": "Signature Drink",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
-    },
-    {
-      "name": "Canned juice large",
-      "description": "Delicious canned juice in your favorite flavor.",
+      "description": "Classic mojito with fresh mint and soda.",
       "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?w=400&q=80",
-      "origin": "Imported",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
+      "image": "https://images.unsplash.com/photo-1582458607941-4b3f97c3a6f2?w=400&q=80",
+      "origin": "Global",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
     },
     {
-      "name": "Blue lagoon",
-      "description": "Vibrant blue drink with a citrusy punch.",
+      "name": "Canned Juice (Large)",
+      "description": "Packaged canned fruit juice.",
       "price": "₹149",
-      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&q=80",
-      "origin": "House Special",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
+      "image": "https://images.unsplash.com/photo-1551022374-54f5f9d4a3d8?w=400&q=80",
+      "origin": "",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
+    },
+    {
+      "name": "Blue Lagoon",
+      "description": "Refreshing mocktail with lemonade and blue curacao syrup.",
+      "price": "₹49",
+      "image": "https://images.unsplash.com/photo-1627662057417-334c06c14a2f?w=400&q=80",
+      "origin": "Global",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
     },
     {
       "name": "Tea",
-      "description": "Aromatic hot tea brewed to perfection.",
-      "price": "₹49",
-      "image": "https://images.unsplash.com/photo-1597318181409-cf64e0b94c83?w=400&q=80",
+      "description": "Hot Indian chai with milk and spices.",
+      "price": "₹39",
+      "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&q=80",
       "origin": "Indian",
-      "dietary": ["veg","vegan"],
+      "dietary": ["veg"],
       "category": "beverages"
     },
     {
       "name": "Coffee",
-      "description": "Strong and energizing coffee for a perfect start.",
-      "price": "₹49",
-      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80",
-      "origin": "House Blend",
-      "dietary": ["veg","vegan"],
-      "category": "beverages"
-    },
-    {
-      "name": "Milk (hot & cold)",
-      "description": "Fresh milk served hot or cold as per your preference.",
+      "description": "Hot brewed coffee.",
       "price": "₹79",
-      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&q=80",
-      "origin": "Farm Fresh",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "beverages"
     },
     {
-      "name": "Cold coffee plain",
-      "description": "Chilled coffee with a rich and creamy texture.",
+      "name": "Milk (Hot & Cold)",
+      "description": "Fresh milk served hot or cold.",
+      "price": "₹49",
+      "image": "https://images.unsplash.com/photo-1582719201807-2e82f8910b6d?w=400&q=80",
+      "origin": "",
+      "dietary": ["veg"],
+      "category": "beverages"
+    },
+    {
+      "name": "Soft Drinks (400ml)",
+      "description": "Carbonated beverage served in 400ml glass.",
+      "price": "₹49",
+      "image": "https://images.unsplash.com/photo-1606788075761-5d59a95cdbf1?w=400&q=80",
+      "origin": "",
+      "dietary": ["veg"],
+      "category": "soft_drinks"
+    },
+    {
+      "name": "Cold Coffee (Plain)",
+      "description": "Iced cold coffee served plain.",
       "price": "₹129",
-      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80",
-      "origin": "House Blend",
+      "image": "https://images.unsplash.com/photo-1627662057417-334c06c14a2f?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "beverages"
     },
     {
-      "name": "Cold coffee (With icecream)",
-      "description": "Icy cold coffee blended with creamy ice cream.",
+      "name": "Cold Coffee (With Ice Cream)",
+      "description": "Cold coffee topped with ice cream.",
       "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=80",
-      "origin": "House Blend",
+      "image": "https://images.unsplash.com/photo-1606787645459-87b29a64f234?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "beverages"
     },
     {
       "name": "Milkshake",
-      "description": "Thick and creamy milkshake in classic flavors.",
+      "description": "Rich and creamy flavored milkshake.",
       "price": "₹119",
-      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=400&q=80",
-      "origin": "House Special",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "beverages"
     },
     {
-      "name": "Mineral water",
-      "description": "Pure and refreshing mineral water bottle.",
+      "name": "Mineral Water",
+      "description": "Packaged drinking water.",
       "price": "₹29",
-      "image": "https://images.unsplash.com/photo-1520638023360-6def43369781?w=400&q=80",
-      "origin": "Packaged",
-      "dietary": ["veg","vegan"],
+      "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=400&q=80",
+      "origin": "",
+      "dietary": ["veg"],
       "category": "beverages"
     }
   ],
-  
   "breakfast": [
     {
       "name": "Poha / Upma",
-      "description": "Light and healthy Indian breakfast made from flattened rice or semolina.",
+      "description": "Traditional Indian breakfast made with flattened rice or semolina.",
       "price": "₹175",
-      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1632823474499-3e8f1f0b20e4?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Idli Sambhar (4pc.)",
-      "description": "Soft steamed idlis served with spicy sambhar and chutney.",
+      "description": "Steamed rice cakes served with sambhar and chutney.",
       "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1604908177412-3a1c7f2f660a?w=400&q=80",
       "origin": "South Indian",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
-      "name": "Veg Sandwich Plain",
-      "description": "Simple and tasty vegetable sandwich with fresh ingredients.",
+      "name": "Veg Sandwich",
+      "description": "Fresh vegetable sandwich served with condiments.",
       "price": "₹275",
-      "image": "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
-      "name": "Cheese Sandwich",
-      "description": "Classic cheese sandwich grilled to perfection.",
+      "name": "Plain Cheese Sandwich",
+      "description": "Grilled sandwich with cheese filling.",
       "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1528736235302-52922df5c122?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1585238341986-765bdf2c1a38?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Club Sandwich",
-      "description": "Multi-layered sandwich filled with veggies and sauces.",
+      "description": "Layered sandwich with vegetables and cheese.",
       "price": "₹119",
-      "image": "https://images.unsplash.com/photo-1481070414801-51fd732d7184?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Veg Grilled Sandwich",
-      "description": "Grilled sandwich packed with fresh vegetables and spices.",
+      "description": "Grilled sandwich stuffed with vegetables.",
       "price": "₹99",
-      "image": "https://images.unsplash.com/photo-1550317138-10000687ac61?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1505253216365-51242b3a2aa7?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Cheese Grilled Sandwich",
-      "description": "Melted cheese inside perfectly grilled bread slices.",
+      "description": "Grilled sandwich stuffed with cheese.",
       "price": "₹99",
-      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1627308595400-7c943d7e8c01?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Corn Flakes Milk (Hot & Cold)",
-      "description": "Healthy cornflakes served with hot or cold milk.",
+      "description": "Corn flakes served with hot or cold milk.",
       "price": "₹149",
-      "image": "https://images.unsplash.com/photo-1581798459219-318e76aecc40?w=400&q=80",
-      "origin": "Healthy Choice",
+      "image": "https://images.unsplash.com/photo-1589883661928-1e5bb6f9c9a5?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Puri Bhaji (4pc.)",
-      "description": "Fried puris served with spicy potato curry.",
+      "description": "Deep-fried puris served with potato curry.",
       "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=80",
-      "origin": "North Indian",
+      "image": "https://images.unsplash.com/photo-1654514894799-50e54f9b89e6?w=400&q=80",
+      "origin": "Indian",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Aloo Paratha with Curd (2pc.)",
-      "description": "Stuffed potato parathas served with curd.",
+      "description": "Stuffed potato paratha served with curd.",
       "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1641555647894-6b98ae035a5c?w=400&q=80",
       "origin": "North Indian",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Aloo Bada (3pc.)",
-      "description": "Crispy potato fritters served hot.",
+      "description": "Deep-fried potato fritters.",
       "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1601050690532-da0c6f074e36?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1617196035297-d5e8a02c193f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Chole Bhature (2pc.)",
-      "description": "Fluffy bhature served with spicy chole.",
+      "description": "Spiced chickpeas served with fried bhature.",
       "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1626082926319-3774f39c8f39?w=400&q=80",
       "origin": "North Indian",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Toast with Butter & Jam",
-      "description": "Crisp toast served with butter and jam.",
+      "description": "Toasted bread served with butter and jam.",
       "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1587248720322-b239d40eadd6?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Bread Butter",
-      "description": "Fresh bread slices served with butter.",
+      "description": "Simple bread with butter spread.",
       "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
-      "origin": "Continental",
+      "image": "https://images.unsplash.com/photo-1626082926399-b7d2972d57db?w=400&q=80",
+      "origin": "Global",
       "dietary": ["veg"],
       "category": "breakfast"
     },
     {
       "name": "Pav Bhaji (4pc.)",
-      "description": "Pav served with spicy mashed vegetable curry.",
+      "description": "Spiced vegetable curry served with buttered pav bread.",
       "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&q=80",
-      "origin": "Indian Street Food",
+      "image": "https://images.unsplash.com/photo-1632928360164-37936cbe2062?w=400&q=80",
+      "origin": "Mumbai",
       "dietary": ["veg"],
       "category": "breakfast"
     }
   ],
-
   "eggs": [
     {
-      "name": "Boiled Egg Bhurji",
-      "description": "Protein-rich boiled eggs scrambled with spices.",
+      "name": "Boiled Egg",
+      "description": "Simple boiled egg served with salt and pepper.",
       "price": "₹129",
-      "image": "https://images.unsplash.com/photo-1582169296194-866fb86a2e65?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
+      "origin": "Global",
+      "dietary": ["non-veg"],
+      "category": "eggs"
+    },
+    {
+      "name": "Bhurji",
+      "description": "Spicy Indian-style scrambled eggs.",
+      "price": "₹149",
+      "image": "https://images.unsplash.com/photo-1632823474334-36d2a9a8c2a6?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Egg Pakora",
-      "description": "Crispy golden egg fritters served hot.",
-      "price": "₹149",
-      "image": "https://images.unsplash.com/photo-1606787842771-1ddd9daaef0d?w=400&q=80",
+      "description": "Deep-fried fritters made with eggs and spices.",
+      "price": "₹175",
+      "image": "https://images.unsplash.com/photo-1625941360676-18d96d9d0f64?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Boiled Egg (3pc.)",
-      "description": "Perfectly boiled eggs served plain.",
-      "price": "₹175",
-      "image": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?w=400&q=80",
-      "origin": "Indian",
+      "description": "Three pieces of boiled eggs served plain.",
+      "price": "₹199",
+      "image": "https://images.unsplash.com/photo-1627662057466-5a77cb4b3c87?w=400&q=80",
+      "origin": "Global",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Boiled Egg Fry (3pc.)",
-      "description": "Pan-fried boiled eggs with spices.",
-      "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1606049341095-bcfafe6e30f4?w=400&q=80",
+      "description": "Fried boiled eggs with Indian spices.",
+      "price": "₹129",
+      "image": "https://images.unsplash.com/photo-1617196035297-d5e8a02c193f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Masala Omlette",
-      "description": "Fluffy omelette loaded with Indian spices.",
-      "price": "₹129",
-      "image": "https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?w=400&q=80",
+      "description": "Omelette cooked with onions, chilies, and spices.",
+      "price": "₹299",
+      "image": "https://images.unsplash.com/photo-1617196035297-d5e8a02c193f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Egg Bhurji",
-      "description": "Classic scrambled eggs with masala twist.",
-      "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1582169296194-866fb86a2e65?w=400&q=80",
+      "description": "Scrambled eggs cooked with onions, tomatoes, and spices.",
+      "price": "₹249",
+      "image": "https://images.unsplash.com/photo-1632823474334-36d2a9a8c2a6?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Cheese Omlette",
-      "description": "Omelette stuffed with rich melted cheese.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&q=80",
-      "origin": "Indian",
+      "description": "Fluffy omelette stuffed with cheese.",
+      "price": "₹299",
+      "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
+      "origin": "Global",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Poached Egg",
-      "description": "Soft and perfectly poached eggs.",
-      "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
-      "origin": "Continental",
+      "description": "Soft poached eggs served warm.",
+      "price": "₹249",
+      "image": "https://images.unsplash.com/photo-1606851091973-c5b7461f4e6a?w=400&q=80",
+      "origin": "Global",
       "dietary": ["non-veg"],
       "category": "eggs"
     },
     {
       "name": "Egg Chilly",
-      "description": "Spicy Indo-Chinese style egg preparation.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1606787766498-97cdd4aba80b?w=400&q=80",
-      "origin": "Fusion",
+      "description": "Indo-Chinese style spicy egg stir-fry.",
+      "price": "₹299",
+      "image": "https://images.unsplash.com/photo-1606851092111-b50a1c06e20b?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["non-veg"],
       "category": "eggs"
     }
   ],
-
   "salad_papad": [
     {
       "name": "Masala Papad Fry/Roasted",
-      "description": "Crispy papad topped with tangy masala mix.",
+      "description": "Crispy papad topped with onions, tomatoes, and spices.",
       "price": "₹119",
-      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1632823474334-36d2a9a8c2a6?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Makki Papadi",
-      "description": "Crisp maize papadi served with spices.",
+      "description": "Crispy corn flour-based papadi snack.",
       "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1627662057466-5a77cb4b3c87?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Green Salad",
-      "description": "Fresh green vegetables served as a healthy salad.",
+      "description": "Freshly cut seasonal vegetables served raw.",
       "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
-      "origin": "Healthy Choice",
-      "dietary": ["veg","vegan"],
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
+      "origin": "Global",
+      "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Russian Salad",
-      "description": "Creamy salad made with veggies and mayo dressing.",
+      "description": "Creamy salad with vegetables and mayonnaise.",
       "price": "₹99",
-      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1585238341986-765bdf2c1a38?w=400&q=80",
       "origin": "Russian",
       "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Makhana Salad",
-      "description": "Light and crunchy lotus seed salad with spices.",
+      "description": "Roasted foxnuts mixed with vegetables and spices.",
       "price": "₹49",
-      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1606787645459-87b29a64f234?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Fried Papad",
-      "description": "Crispy fried papad served hot.",
+      "description": "Deep-fried papad, crispy and crunchy.",
       "price": "₹49",
-      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&q=80",
-      "origin": "Indian",
-      "dietary": ["veg"],
-      "category": "salad_papad"
-    },
-    {
-      "name": "Roasted Papad",
-      "description": "Healthy roasted papad served as an appetizer.",
-      "price": "₹79",
-      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1617196035297-d5e8a02c193f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Kachumber Salad",
-      "description": "Finely chopped onions, tomatoes and cucumbers.",
-      "price": "₹59",
-      "image": "https://images.unsplash.com/photo-1543339318-c4703d6dc4b0?w=400&q=80",
+      "description": "Chopped onion, cucumber, and tomato salad.",
+      "price": "₹49",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
       "origin": "Indian",
-      "dietary": ["veg","vegan"],
+      "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Onion Salad",
-      "description": "Sliced onions served with tangy spices.",
-      "price": "₹49",
-      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&q=80",
+      "description": "Sliced onion salad served with lemon and salt.",
+      "price": "₹79",
+      "image": "https://images.unsplash.com/photo-1632823474499-3e8f1f0b20e4?w=400&q=80",
       "origin": "Indian",
-      "dietary": ["veg","vegan"],
+      "dietary": ["veg"],
+      "category": "salad_papad"
+    },
+    {
+      "name": "Roasted Papad",
+      "description": "Roasted papad served plain.",
+      "price": "₹59",
+      "image": "https://images.unsplash.com/photo-1627662057417-334c06c14a2f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Kaju Makhana Salad",
-      "description": "Premium salad made with cashews and lotus seeds.",
+      "description": "Healthy salad with cashews and roasted foxnuts.",
       "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1595475207225-428b7973e3d1?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1585238341965-bc0d6e53b82a?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "salad_papad"
     },
     {
       "name": "Sprout Salad",
-      "description": "Nutritious sprouted beans salad.",
+      "description": "Protein-rich salad made with sprouted legumes.",
       "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?w=400&q=80",
-      "origin": "Healthy Choice",
-      "dietary": ["veg","vegan"],
+      "image": "https://images.unsplash.com/photo-1606788075761-5d59a95cdbf1?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
       "category": "salad_papad"
     }
   ],
-
   "soups": [
     {
       "name": "Sweet Corn Chicken Soup",
-      "description": "Delicious chicken soup with sweet corn flavor.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "description": "Chicken and sweet corn in a light, savory broth.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1603079650118-8ad3ec90d66f?w=400&q=80",
       "origin": "Indo-Chinese",
       "dietary": ["non-veg"],
       "category": "soups"
     },
     {
       "name": "Hot & Sour Chicken Soup",
-      "description": "Spicy and tangy chicken soup full of flavors.",
-      "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1581385250900-9c9300e3bdff?w=400&q=80",
-      "origin": "Chinese",
+      "description": "Spicy and tangy chicken soup with vegetables and vinegar.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1613145993371-dfa7e4e1a50e?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["non-veg"],
       "category": "soups"
     },
     {
       "name": "Chicken Manchow Soup",
-      "description": "Spicy chicken soup garnished with crispy noodles.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80",
-      "origin": "Chinese",
+      "description": "Hearty chicken Manchow topped with fried noodles.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1617196035317-3e8f1f0b20e4?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["non-veg"],
       "category": "soups"
     },
     {
       "name": "Cream of Chicken Soup",
-      "description": "Rich and creamy chicken soup.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1612059133205-fe583c8aa95e?w=400&q=80",
+      "description": "Rich and creamy chicken soup, smooth texture.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1590080876395-0c84a7c8d2a8?w=400&q=80",
       "origin": "Continental",
       "dietary": ["non-veg"],
       "category": "soups"
     },
     {
       "name": "Cream of Tomato Soup",
-      "description": "Classic creamy tomato soup with herbs.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1576867757603-05b134dbc71a?w=400&q=80",
+      "description": "Silky tomato soup finished with cream.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
       "origin": "Continental",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Lemon Coriander Soup",
-      "description": "Light and refreshing soup with lemon and coriander.",
-      "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
-      "origin": "Healthy",
+      "description": "Zesty soup with lemon and fresh coriander.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1613145993481-1d37946d3f56?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Cream of Veg Soup",
-      "description": "Smooth and creamy vegetable soup.",
-      "price": "₹199",
-      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&q=80",
+      "description": "Creamy blended vegetables, smooth and comforting.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1613145993401-efc3b0d41d0a?w=400&q=80",
       "origin": "Continental",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Palak Shorba",
-      "description": "Spinach-based Indian soup rich in nutrients.",
-      "price": "₹275",
-      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
+      "description": "Spinach-based shorba, mildly spiced and warming.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Veg Manchow Soup",
-      "description": "Spicy vegetable soup topped with crispy noodles.",
-      "price": "₹275",
-      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80",
-      "origin": "Chinese",
+      "description": "Spicy veg Manchow with mixed vegetables and crisp topping.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1627662057436-734c06c14a2f?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Sweet Corn Veg Soup",
-      "description": "Classic sweet corn soup with vegetables.",
-      "price": "₹275",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
-      "origin": "Chinese",
+      "description": "Sweet corn and vegetables simmered in a light broth.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1613145993551-2d37946d3f56?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Dal Shorba",
-      "description": "Traditional Indian lentil-based soup.",
-      "price": "₹275",
-      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80",
+      "description": "Lentil shorba, spiced and comforting.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1617196035297-d5e8a02c193f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
       "category": "soups"
     },
     {
       "name": "Hot & Sour Veg Soup",
-      "description": "Vegetarian version of hot and sour soup.",
-      "price": "₹249",
-      "image": "https://images.unsplash.com/photo-1581385250900-9c9300e3bdff?w=400&q=80",
-      "origin": "Chinese",
+      "description": "Tangy and spicy vegetable soup with vinegar and chili.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1627662057419-6b77cb4b3c87?w=400&q=80",
+      "origin": "Indo-Chinese",
       "dietary": ["veg"],
       "category": "soups"
     }
   ],
-
-  "indian_starters": [
+  "veg_starters": [
+    {
+      "name": "Tandoori Platter (Assorted)",
+      "description": "Assorted tandoori vegetables and paneer.",
+      "price": "375/-",
+      "image": "https://images.unsplash.com/photo-1604908177412-3a1c7f2f660a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Aloo Cheese Kabab",
+      "description": "Potato and cheese patties, shallow fried.",
+      "price": "379/-",
+      "image": "https://images.unsplash.com/photo-1601050690597-9b06f25a551c?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Veg Lolly Pop",
+      "description": "Crispy vegetable pop with spicy coating.",
+      "price": "379/-",
+      "image": "https://images.unsplash.com/photo-1617196035252-3e8f1f0b20e4?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Corn Roll",
+      "description": "Roll stuffed with sweet corn and spices.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1627662057436-734c06c14a2f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Peas Roll",
+      "description": "Crispy roll filled with spiced peas.",
+      "price": "349/-",
+      "image": "https://images.unsplash.com/photo-1632823474391-1d37946d3f56?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Peanut Plain",
+      "description": "Roasted/seasoned peanuts.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1606787645459-87b29a64f234?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Peanut Masala",
+      "description": "Spiced masala peanuts.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1585238341965-bc0d6e53b82a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Paneer Chilly",
+      "description": "Paneer cubes tossed with chilli sauce and peppers.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1606788075731-5d59a95cdbf1?w=400&q=80",
+      "origin": "Indo-Chinese",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
     {
       "name": "Paneer Tikka",
-      "description": "Cubes of paneer marinated in spices and grilled to perfection.",
-      "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80",
-      "origin": "North Indian",
-      "dietary": ["veg"],
-      "category": "indian_starters"
-    },
-    {
-      "name": "Hara Bhara Kabab",
-      "description": "Healthy kababs made with spinach and green peas.",
-      "price": "₹275",
-      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&q=80",
+      "description": "Marinated paneer grilled in tandoor.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1632823474475-efc3b0d41d0a?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
-      "category": "indian_starters"
-    },
-    {
-      "name": "Veg Seekh Kabab",
-      "description": "Spiced vegetable mixture grilled on skewers.",
-      "price": "₹299",
-      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&q=80",
-      "origin": "Indian",
-      "dietary": ["veg"],
-      "category": "indian_starters"
+      "category": "veg_starters"
     },
     {
       "name": "Paneer Malai Tikka",
-      "description": "Creamy paneer cubes marinated in rich malai mix.",
+      "description": "Creamy marinated paneer grilled.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1613145993427-3e8f1f0b20e4?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Paneer Sticks",
+      "description": "Skewered paneer sticks, lightly spiced.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1627662057419-6b77cb4b3c87?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Baby Corn Tikka",
+      "description": "Marinated baby corn, grilled.",
+      "price": "99/-",
+      "image": "https://images.unsplash.com/photo-1585238341992-bc0d6e53b82a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Mushroom Tikka",
+      "description": "Mushroom pieces marinated and grilled.",
+      "price": "149/-",
+      "image": "https://images.unsplash.com/photo-1606787645488-87b29a64f234?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Veg Pakora",
+      "description": "Mixed vegetable fritters, deep fried.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1601050690598-9b06f25a551c?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Paneer Pakora",
+      "description": "Batter-fried paneer cubes.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1585238341993-bc0d6e53b82a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Potato Cheese Roll",
+      "description": "Roll stuffed with spiced potato and cheese.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1627662057432-6b77cb4b3c87?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Crispy Cheese Paneer",
+      "description": "Crispy fried paneer with cheese coating.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1603899122233-0c79f4e44f1f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Cheese Chilly Toast",
+      "description": "Toasted bread topped with cheese and chilly.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1632823474427-1d37946d3f56?w=400&q=80",
+      "origin": "Continental/Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Aloo Chana Chaat",
+      "description": "Spiced potato and chickpea chaat.",
+      "price": "379/-",
+      "image": "https://images.unsplash.com/photo-1627662057417-334c06c14a2f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Hara Bhara Kabab",
+      "description": "Spinach & green-pea kebab, shallow fried.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Veg Spring Roll",
+      "description": "Crispy rolls stuffed with mixed vegetables.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&q=80",
+      "origin": "Chinese",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "French Fry",
+      "description": "Classic deep-fried potato fries.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1542444459-db3c6f7b7a0b?w=400&q=80",
+      "origin": "Global",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Veg Cutlet",
+      "description": "Pan-fried vegetable cutlets.",
+      "price": "199/-",
+      "image": "https://images.unsplash.com/photo-1607303679229-3a3b9ecb0aa6?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Tandoori Aloo",
+      "description": "Spiced baby potatoes roasted in tandoor.",
+      "price": "249/-",
+      "image": "https://images.unsplash.com/photo-1626082926319-3774f39c8f39?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Veg Triangle",
+      "description": "Triangular pastry stuffed with vegetables.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1585238341986-765bdf2c1a38?w=400&q=80",
+      "origin": "Indian/Continental",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Achaari Paneer Tikka",
+      "description": "Paneer tikka marinated in pickling spices.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Veg Seekh Kabab",
+      "description": "Minced vegetable kebab skewered and grilled.",
+      "price": "275/-",
+      "image": "https://images.unsplash.com/photo-1632823474499-3e8f1f0b20e4?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Makki Malai Tikki",
+      "description": "Corn and cream tikkis, lightly spiced.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1625941360676-18d96d9d0f64?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Mushroom Chilly",
+      "description": "Mushrooms tossed in chilly sauce with peppers.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1627662057436-734c06c14a2f?w=400&q=80",
+      "origin": "Indo-Chinese",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Crispy corn",
+      "description": "Crispy battered sweet corn tossed with spices.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1613145993401-efc3b0d41d0a?w=400&q=80",
+      "origin": "Indo-Chinese",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    },
+    {
+      "name": "Mushroom Merry",
+      "description": "Chef's special mushroom preparation.",
+      "price": "349/-",
+      "image": "https://images.unsplash.com/photo-1613145993551-2d37946d3f56?w=400&q=80",
+      "origin": "Indian/Continental",
+      "dietary": ["veg"],
+      "category": "veg_starters"
+    }
+  ],
+  "non_veg_starters": [
+    {
+      "name": "Tawa Fish",
+      "price": "₹449",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Fish Finger",
+      "price": "₹599",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Bhujma",
+      "price": "₹299",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Lolly Pop",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Toasted Chicken Sandwich",
+      "price": "₹449",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Sandwich",
+      "price": "₹449",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Tikka",
+      "price": "₹449",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Murg Tandoori (Full)",
+      "price": "₹449",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Murg Tandoori (Half)",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Seekh Kabab",
+      "price": "₹299",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Fish Tikka",
+      "price": "₹275",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Bhujma Mutton",
+      "price": "₹475",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Murg Tikka Afghani",
+      "price": "₹475",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Murg Tikka Adraki",
+      "price": "₹475",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Juicy Chicken Tikka",
+      "price": "₹475",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Murg Lehsuni Tikka",
+      "price": "₹475",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chilly Chicken",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Shreded Chicken Hot (Garlic Sauce)",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Chowmein",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Schezwan Chicken",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Lemon chicken",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Shanghai",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Spring Roll",
       "price": "₹349",
-     "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_starters"
-   },
-   {
-     "name": "Soya Chaap",
-     "description": "Tender soya chaap marinated and grilled with spices.",
-     "price": "₹249",
-     "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "indian_starters"
-   },
-   {
-     "name": "Paneer Achari Tikka",
-     "description": "Paneer cubes spiced with tangy achari masala.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_starters"
-   },
-   {
-     "name": "Veg Crispy",
-     "description": "Crispy fried vegetables tossed in spices.",
-     "price": "₹199",
-     "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400&q=80",
-     "origin": "Indo-Chinese",
-     "dietary": ["veg"],
-     "category": "indian_starters"
-   },
-   {
-     "name": "Paneer Chilly",
-     "description": "Spicy Indo-Chinese style paneer in tangy sauce.",
-     "price": "₹249",
-     "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80",
-     "origin": "Indo-Chinese",
-     "dietary": ["veg"],
-     "category": "indian_starters"
-   }
- ],
-
- "indian_main_course": [
-   {
-     "name": "Paneer Butter Masala",
-     "description": "Cottage cheese cubes in a rich buttery tomato gravy.",
-     "price": "₹349",
-     "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Shahi Paneer",
-     "description": "Paneer cooked in a creamy, royal cashew-based gravy.",
-     "price": "₹379",
-     "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Kadai Paneer",
-     "description": "Paneer cubes cooked with bell peppers and spices.",
-     "price": "₹329",
-     "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Mix Veg Curry",
-     "description": "Seasonal vegetables cooked in flavorful gravy.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Chole Masala",
-     "description": "Tangy and spicy chickpea curry cooked with spices.",
-     "price": "₹279",
-     "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Dal Makhani",
-     "description": "Creamy black lentil curry slow-cooked to perfection.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80",
-     "origin": "Punjabi",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Rajma Masala",
-     "description": "Red kidney beans cooked in a spiced tomato gravy.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Jeera Aloo",
-     "description": "Cumin-flavored potatoes tossed in spices.",
-     "price": "₹249",
-     "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg","vegan"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Bhindi Masala",
-     "description": "Okra cooked with onions and Indian spices.",
-     "price": "₹259",
-     "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Butter Chicken",
-     "description": "Chicken in buttery tomato-based gravy.",
-     "price": "₹449",
-     "image": "https://images.unsplash.com/photo-1631452180539-96aca7d48617?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["non-veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Chicken Curry",
-     "description": "Classic chicken curry with aromatic spices.",
-     "price": "₹399",
-     "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["non-veg"],
-     "category": "indian_main_course"
-   },
-   {
-     "name": "Mutton Curry",
-     "description": "Tender mutton pieces in a rich spiced gravy.",
-     "price": "₹499",
-     "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["non-veg"],
-     "category": "indian_main_course"
-   }
- ],
-
- "rajasthani_main_course": [
-   {
-     "name": "Ker Sangri",
-     "description": "Traditional Rajasthani delicacy of dried berries and beans.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-     "origin": "Rajasthani",
-     "dietary": ["veg"],
-     "category": "rajasthani_main_course"
-   },
-   {
-     "name": "Gatte Ki Sabzi",
-     "description": "Gram flour dumplings in a spiced yogurt gravy.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80",
-     "origin": "Rajasthani",
-     "dietary": ["veg"],
-     "category": "rajasthani_main_course"
-   },
-   {
-     "name": "Panchmel Dal",
-     "description": "Mix of five lentils cooked with spices.",
-     "price": "₹279",
-     "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80",
-     "origin": "Rajasthani",
-     "dietary": ["veg"],
-     "category": "rajasthani_main_course"
-   },
-   {
-     "name": "Laal Maas",
-     "description": "Fiery red mutton curry prepared Rajasthani style.",
-     "price": "₹499",
-     "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&q=80",
-     "origin": "Rajasthani",
-     "dietary": ["non-veg"],
-     "category": "rajasthani_main_course"
-   }
- ],
-
- "raita": [
-   {
-     "name": "Boondi Raita",
-     "description": "Crispy boondi in chilled spiced yogurt.",
-     "price": "₹99",
-     "image": "https://images.unsplash.com/photo-1589621316382-008455b857cd?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "raita"
-   },
-   {
-     "name": "Mix Veg Raita",
-     "description": "Mixed vegetables blended with seasoned yogurt.",
-     "price": "₹129",
-     "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "raita"
-   },
-   {
-     "name": "Onion Raita",
-     "description": "Finely chopped onions mixed with yogurt and spices.",
-     "price": "₹89",
-     "image": "https://images.unsplash.com/photo-1589621316382-008455b857cd?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "raita"
-   },
-   {
-     "name": "Pineapple Raita",
-     "description": "Sweet and tangy pineapple mixed with yogurt.",
-     "price": "₹149",
-     "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "raita"
-   }
- ],
-
- "indian_breads": [
-   {
-     "name": "Tandoori Roti",
-     "description": "Whole wheat roti baked in tandoor.",
-     "price": "₹25",
-     "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg","vegan"],
-     "category": "indian_breads"
-   },
-   {
-     "name": "Butter Naan",
-     "description": "Soft naan brushed with butter.",
-     "price": "₹49",
-     "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_breads"
-   },
-   {
-     "name": "Garlic Naan",
-     "description": "Naan infused with garlic and herbs.",
-     "price": "₹59",
-     "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_breads"
-   },
-   {
-     "name": "Lachha Paratha",
-     "description": "Flaky layered paratha cooked in tandoor.",
-     "price": "₹69",
-     "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_breads"
-   },
-   {
-     "name": "Stuffed Kulcha",
-     "description": "Soft kulcha stuffed with spiced filling.",
-     "price": "₹79",
-     "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400&q=80",
-     "origin": "North Indian",
-     "dietary": ["veg"],
-     "category": "indian_breads"
-   }
- ],
-
- "rice": [
-   {
-     "name": "Steamed Rice",
-     "description": "Fluffy white steamed rice.",
-     "price": "₹149",
-     "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg","vegan"],
-     "category": "rice"
-   },
-   {
-     "name": "Jeera Rice",
-     "description": "Aromatic rice flavored with cumin seeds.",
-     "price": "₹199",
-     "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg","vegan"],
-     "category": "rice"
-   },
-   {
-     "name": "Veg Pulao",
-     "description": "Fragrant rice cooked with vegetables and spices.",
-     "price": "₹249",
-     "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "rice"
-   },
-   {
-     "name": "Veg Biryani",
-     "description": "Flavorful layered rice cooked with vegetables and spices.",
-     "price": "₹299",
-     "image": "https://images.unsplash.com/photo-1563379091339-03246963d49a?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "rice"
-   },
-   {
-     "name": "Chicken Biryani",
-     "description": "Spiced chicken layered with fragrant basmati rice.",
-     "price": "₹399",
-     "image": "https://images.unsplash.com/photo-1563379091339-03246963d49a?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["non-veg"],
-     "category": "rice"
-   },
-   {
-     "name": "Mutton Biryani",
-     "description": "Tender mutton pieces layered with spiced rice.",
-     "price": "₹499",
-     "image": "https://images.unsplash.com/photo-1563379091339-03246963d49a?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["non-veg"],
-     "category": "rice"
-   }
- ],
-
- "desserts": [
-   {
-     "name": "Gulab Jamun",
-     "description": "Soft khoya balls soaked in sugar syrup.",
-     "price": "₹99",
-     "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "desserts"
-   },
-   {
-     "name": "Rasgulla",
-     "description": "Spongy cheese balls soaked in sweet syrup.",
-     "price": "₹99",
-     "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "desserts"
-   },
-   {
-     "name": "Ice Cream (2 Scoops)",
-     "description": "Creamy ice cream in assorted flavors.",
-     "price": "₹149",
-     "image": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=400&q=80",
-     "origin": "Continental",
-     "dietary": ["veg"],
-     "category": "desserts"
-   },
-   {
-     "name": "Kesari Halwa",
-     "description": "Traditional Indian sweet made with semolina and saffron.",
-     "price": "₹129",
-     "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=400&q=80",
-     "origin": "Indian",
-     "dietary": ["veg"],
-     "category": "desserts"
-   }
- ]
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Manchurian",
+      "price": "₹349",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Hong Kong Style",
+      "price": "₹399",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    },
+    {
+      "name": "Chicken Dana",
+      "price": "₹349",
+      "category": "non_veg_starters",
+      "dietary": ["non-veg"]
+    }
+  ],
+  "indian_main_course_veg": [
+    {
+      "name": "Paneer Chulbuli",
+      "price": "₹499",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Palak Paneer",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Veg Jalfrezi",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Kaju Curry",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Mix Veg.",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Kadai Paneer",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Veg Kolhapuri",
+      "price": "₹349",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Veg Jaipuri",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Matar Paneer",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "price": "₹399",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Paneer Tikka Masala",
+      "price": "₹429",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Paneer Laziz",
+      "price": "₹399",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Malai Kofta",
+      "price": "₹399",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Navratan Korma",
+      "price": "₹399",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Angoori Curry",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Dum Aloo Punjabi",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Bhindi Masala",
+      "price": "₹249",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Creamy Onion Masala Paneer",
+      "price": "₹275",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Mushroom Butter Masala",
+      "price": "₹349",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Mushroom Masala",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Aloo Jeera",
+      "price": "₹249",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Capsicum",
+      "price": "₹249",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Dal Tadka",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Sev Tomato",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Dal Makhani",
+      "price": "₹399",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Rajma Curry",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Aloo Gobhi Matar",
+      "price": "₹249",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Veg Kofta Curry",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Chana Masala",
+      "price": "₹249",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Matar Mashroom",
+      "price": "₹299",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    },
+    {
+      "name": "Aloo Gobhi Adraki",
+      "price": "₹275",
+      "category": "indian_main_course_veg",
+      "dietary": ["veg"]
+    }
+  ],
+  "indian_main_course_nonveg": [
+    {
+      "name": "Chicken Masala ( Half)",
+      "description": "Spiced chicken masala served half-portion.",
+      "price": "649/-",
+      "image": "https://images.unsplash.com/photo-1604908177412-3a1c7f2f660a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Chicken Jalfrezi",
+      "description": "Tangy and spicy chicken cooked with peppers and onions.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1603079650118-8ad3ec90d66f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Handi Murg Navratan",
+      "description": "Rich handi-style chicken with mixed vegetables (Navratan).",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Keema",
+      "description": "Minced meat cooked with spices (keema).",
+      "price": "449/-",
+      "image": "https://images.unsplash.com/photo-1603899122233-0c79f4e44f1f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Hyderabadi Mutton",
+      "description": "Slow-cooked Hyderabadi-style mutton with rich spices.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1601050690598-9b06f25a551c?w=400&q=80",
+      "origin": "Hyderabadi",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Lal Maas",
+      "description": "Traditional spicy Rajasthani mutton curry (Lal Maas).",
+      "price": "649/-",
+      "image": "https://images.unsplash.com/photo-1613145993427-3e8f1f0b20e4?w=400&q=80",
+      "origin": "Rajasthani",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Dhuva Ghosh",
+      "description": "Chef's special mutton preparation (as listed).",
+      "price": "429/-",
+      "image": "https://images.unsplash.com/photo-1627662057436-734c06c14a2f?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Mutton Rogan Josh",
+      "description": "Aromatic Kashmiri-style mutton Rogan Josh.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1606787645488-87b29a64f234?w=400&q=80",
+      "origin": "Kashmiri",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Butter Chicken (Full)",
+      "description": "Creamy tomato-based butter chicken (full portion).",
+      "price": "449/-",
+      "image": "https://images.unsplash.com/photo-1606788075731-5d59a95cdbf1?w=400&q=80",
+      "origin": "North Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Butter Chicken (Half)",
+      "description": "Creamy tomato-based butter chicken (half portion).",
+      "price": "549/-",
+      "image": "https://images.unsplash.com/photo-1585238341993-bc0d6e53b82a?w=400&q=80",
+      "origin": "North Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Chicken Masala (Full)",
+      "description": "Full-portion spicy chicken masala.",
+      "price": "499/-",
+      "image": "https://images.unsplash.com/photo-1632823474391-1d37946d3f56?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Murg Nawabi",
+      "description": "Royal-style chicken preparation with rich gravy.",
+      "price": "499/-",
+      "image": "https://images.unsplash.com/photo-1627662057419-6b77cb4b3c87?w=400&q=80",
+      "origin": "Mughlai",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Chicken Kadai",
+      "description": "Spicy and tangy chicken cooked in a kadai with peppers.",
+      "price": "449/-",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
+      "origin": "North Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Safed Chicken",
+      "description": "Creamy, mild 'white' chicken curry (Safed).",
+      "price": "499/-",
+      "image": "https://images.unsplash.com/photo-1617196035317-3e8f1f0b20e4?w=400&q=80",
+      "origin": "Mughlai",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Fish Curry",
+      "description": "Tangy and spicy fish curry made to chef's style.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1601050690599-9b06f25a551c?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "description": "Grilled chicken tikka cooked in creamy masala gravy.",
+      "price": "449/-",
+      "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
+      "origin": "Indian/UK",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Egg Curry",
+      "description": "Boiled eggs simmered in spiced curry gravy.",
+      "price": "299/-",
+      "image": "https://images.unsplash.com/photo-1606851091973-c5b7461f4e6a?w=400&q=80",
+      "origin": "Indian",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    },
+    {
+      "name": "Murg Patiala",
+      "description": "Murg Patiala — rich Punjabi-style chicken preparation.",
+      "price": "399/-",
+      "image": "https://images.unsplash.com/photo-1626082926319-3774f39c8f39?w=400&q=80",
+      "origin": "Punjabi",
+      "dietary": ["non-veg"],
+      "category": "indian_main_course_nonveg"
+    }
+  ],
+  "rice_biryani": [
+    {
+      "name": "Veg Pulao",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1604908177071-64139b3a7d8a?w=400&q=80"
+    },
+    {
+      "name": "Veg Biryani",
+      "price": "₹349",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1605478903253-8f5a8032d4f0?w=400&q=80"
+    },
+    {
+      "name": "Hyderabadi Veg Biryani",
+      "price": "₹379",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1626076030409-8a52c57d2057?w=400&q=80"
+    },
+    {
+      "name": "Paneer Biryani",
+      "price": "₹399",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1626440108327-7c37f1318cfc?w=400&q=80"
+    },
+    {
+      "name": "Veg Fried Rice",
+      "price": "₹279",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1604908553729-29da9a1e3a6e?w=400&q=80"
+    },
+    {
+      "name": "Jeera Rice",
+      "price": "₹249",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1625246333195-72c1e7b3cd60?w=400&q=80"
+    },
+    {
+      "name": "Steamed Rice",
+      "price": "₹199",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1621996346565-3b6e25a6b8f8?w=400&q=80"
+    },
+    {
+      "name": "Egg Biryani",
+      "price": "₹349",
+      "category": "rice_biryani",
+      "dietary": ["egg"],
+      "image": "https://images.unsplash.com/photo-1609493651126-9a91f96455ce?w=400&q=80"
+    },
+    {
+      "name": "Chicken Biryani",
+      "price": "₹399",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1598515213692-c8b0f0c15f83?w=400&q=80"
+    },
+    {
+      "name": "Hyderabadi Chicken Biryani",
+      "price": "₹449",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1601050690597-e1f23a5e3bcb?w=400&q=80"
+    },
+    {
+      "name": "Mutton Biryani",
+      "price": "₹499",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1605478204383-8466f131b94d?w=400&q=80"
+    },
+    {
+      "name": "Hyderabadi Mutton Biryani",
+      "price": "₹549",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1606387073905-ec8285347ea1?w=400&q=80"
+    },
+    {
+      "name": "Prawns Biryani",
+      "price": "₹479",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1625246190309-01f345962f8f?w=400&q=80"
+    },
+    {
+      "name": "Fish Biryani",
+      "price": "₹459",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1605478816425-0d8f94fbcb10?w=400&q=80"
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "price": "₹349",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1603190287605-5a4a4c8a3c79?w=400&q=80"
+    },
+    {
+      "name": "Egg Fried Rice",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["egg"],
+      "image": "https://images.unsplash.com/photo-1604908813512-3f75ad6054b4?w=400&q=80"
+    },
+    {
+      "name": "Steam Rice",
+      "price": "₹199",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1604909052743-b13a1a5827d7?w=400&q=80"
+    },
+    {
+      "name": "Jeera Rice",
+      "price": "₹249",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1606791405792-1004ecbc74b2?w=400&q=80"
+    },
+    {
+      "name": "Curd Rice",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1603133872878-684f3b9fcb55?w=400&q=80"
+    },
+    {
+      "name": "Veg Pulao",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1632823470161-64b3eebbc49b?w=400&q=80"
+    },
+    {
+      "name": "Peas Pulao",
+      "price": "₹275",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1627308595190-bf62c0c5c1b1?w=400&q=80"
+    },
+    {
+      "name": "Kashmiri Pulao",
+      "price": "₹349",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1627308595229-7831e5aa2d07?w=400&q=80"
+    },
+    {
+      "name": "Veg Biryani with Curd",
+      "price": "₹399",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1621996346561-1666b5ff8e56?w=400&q=80"
+    },
+    {
+      "name": "Gatta Biryani with Curd",
+      "price": "₹349",
+      "category": "rice_biryani",
+      "dietary": ["veg", "rajasthani"],
+      "image": "https://images.unsplash.com/photo-1645111727589-6aebadc177a2?w=400&q=80"
+    },
+    {
+      "name": "Khichdi",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1601050690597-dfcb0c8bc07f?w=400&q=80"
+    },
+    {
+      "name": "Chicken Biryani with Curd",
+      "price": "₹475",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1598620617137-44de9b74d17e?w=400&q=80"
+    },
+    {
+      "name": "Mutton Biryani with Curd",
+      "price": "₹499",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1633945274405-5a4a48a18b1d?w=400&q=80"
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "price": "₹349",
+      "category": "rice_biryani",
+      "dietary": ["non-veg"],
+      "image": "https://images.unsplash.com/photo-1600752376193-d6addf8c06c0?w=400&q=80"
+    },
+    {
+      "name": "Egg Biryani",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["non-veg", "egg"],
+      "image": "https://images.unsplash.com/photo-1608744882200-fbb2d79f05af?w=400&q=80"
+    },
+    {
+      "name": "Egg Fried Rice",
+      "price": "₹299",
+      "category": "rice_biryani",
+      "dietary": ["non-veg", "egg"],
+      "image": "https://images.unsplash.com/photo-1608497750924-9d546f5a6e02?w=400&q=80"
+    }
+  ],
+  "breads": [
+    {
+      "name": "Tandoori Roti",
+      "price": "₹49",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1617196039897-3b2a644d5f2d?w=400&q=80"
+    },
+    {
+      "name": "Butter Roti",
+      "price": "₹59",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1631460277785-85c7d62a17ad?w=400&q=80"
+    },
+    {
+      "name": "Plain Naan",
+      "price": "₹79",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1625246140809-f8f1c2b991b0?w=400&q=80"
+    },
+    {
+      "name": "Butter Naan",
+      "price": "₹99",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1625246100540-62a3a1b5a4e7?w=400&q=80"
+    },
+    {
+      "name": "Garlic Naan",
+      "price": "₹129",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1666001098229-19c12c90e5a8?w=400&q=80"
+    },
+    {
+      "name": "Stuffed Kulcha",
+      "price": "₹149",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1683709081713-8086e2550a6f?w=400&q=80"
+    },
+    {
+      "name": "Paneer Kulcha",
+      "price": "₹179",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1683709092708-b4374d0d5202?w=400&q=80"
+    },
+    {
+      "name": "Onion Kulcha",
+      "price": "₹149",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1666000976027-0c814a94fc5d?w=400&q=80"
+    },
+    {
+      "name": "Aloo Paratha",
+      "price": "₹159",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1683709081056-18237a5df6f7?w=400&q=80"
+    },
+    {
+      "name": "Paneer Paratha",
+      "price": "₹179",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1683709084301-2e9a3f6c4f56?w=400&q=80"
+    },
+    {
+      "name": "Lachha Paratha",
+      "price": "₹99",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1683709083010-4c215fdab9f6?w=400&q=80"
+    },
+    {
+      "name": "Missi Roti",
+      "price": "₹79",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1683709082167-aba8709db9fc?w=400&q=80"
+    },
+    {
+      "name": "Phulka",
+      "price": "₹59",
+      "category": "breads",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1617196039897-3b2a644d5f2d?w=400&q=80"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Vanilla Ice Cream (2 Scoops)",
+      "price": "₹99",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1625203564603-d3884a6f6c41?w=400&q=80"
+    },
+    {
+      "name": "Strawberry Ice Cream (2 Scoops)",
+      "price": "₹99",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80"
+    },
+    {
+      "name": "American Nuts Ice Cream (2 Scoops)",
+      "price": "₹149",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1621939514649-280f31d8fd34?w=400&q=80"
+    },
+    {
+      "name": "Butterscotch Ice Cream (2 Scoops)",
+      "price": "₹149",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1627328715728-7bcc1b5db87d?w=400&q=80"
+    },
+    {
+      "name": "Gulab Jamun (4pc.)",
+      "price": "₹129",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1631452180519-0700122972a1?w=400&q=80"
+    },
+    {
+      "name": "Rasgulla (4pc.)",
+      "price": "₹149",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c3e2a6?w=400&q=80"
+    },
+    {
+      "name": "Fruit Custard",
+      "price": "₹149",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1602253057119-44fe34a427ff?w=400&q=80"
+    },
+    {
+      "name": "Brownie With Ice Cream",
+      "price": "₹199",
+      "category": "desserts",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1613145993483-e06d6f2aebc7?w=400&q=80"
+    }
+  ]
 }
 
 // DOM elements
@@ -1141,6 +1863,7 @@ function getFilteredItems() {
 
 // Highlight search terms in text
 function highlightSearchTerm(text, searchTerm) {
+    if (!text) return "";
     if (!searchTerm) return text;
     
     const regex = new RegExp(`(${searchTerm})`, 'gi');
