@@ -1580,6 +1580,57 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1608497750924-9d546f5a6e02?w=400&q=80"
     }
   ],
+  "raita_lassi": [
+    {
+      "name": "Curd / Dahi",
+      "price": "₹99",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1627308594864-1f7b0bbdfe9a?w=400&q=80"
+    },
+    {
+      "name": "Veg Raita",
+      "price": "₹149",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1601050690597-dfcb0c8bc07f?w=400&q=80"
+    },
+    {
+      "name": "Boondi Raita",
+      "price": "₹149",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1617196039897-3b2a644d5f2d?w=400&q=80"
+    },
+    {
+      "name": "Pineapple Raita",
+      "price": "₹199",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1589307004173-3c9528f8a5a0?w=400&q=80"
+    },
+    {
+      "name": "Fruit Raita",
+      "price": "₹199",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1600093463592-9d3dbbca1140?w=400&q=80"
+    },
+    {
+      "name": "Butter Milk",
+      "price": "₹49",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1625246140809-f8f1c2b991b0?w=400&q=80"
+    },
+    {
+      "name": "Lassi (Sweet & Salted)",
+      "price": "₹99",
+      "category": "raita_lassi",
+      "dietary": ["veg"],
+      "image": "https://images.unsplash.com/photo-1666000976027-0c814a94fc5d?w=400&q=80"
+    }
+  ],
   "breads": [
     {
       "name": "Tandoori Roti",
