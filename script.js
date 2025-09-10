@@ -1419,13 +1419,6 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1621996346565-3b6e25a6b8f8?w=400&q=80"
     },
     {
-      "name": "Egg Biryani",
-      "price": "₹349",
-      "category": "rice_biryani",
-      "dietary": ["egg"],
-      "image": "https://images.unsplash.com/photo-1609493651126-9a91f96455ce?w=400&q=80"
-    },
-    {
       "name": "Chicken Biryani",
       "price": "₹399",
       "category": "rice_biryani",
@@ -1475,39 +1468,11 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1603190287605-5a4a4c8a3c79?w=400&q=80"
     },
     {
-      "name": "Egg Fried Rice",
-      "price": "₹299",
-      "category": "rice_biryani",
-      "dietary": ["egg"],
-      "image": "https://images.unsplash.com/photo-1604908813512-3f75ad6054b4?w=400&q=80"
-    },
-    {
-      "name": "Steam Rice",
-      "price": "₹199",
-      "category": "rice_biryani",
-      "dietary": ["veg"],
-      "image": "https://images.unsplash.com/photo-1604909052743-b13a1a5827d7?w=400&q=80"
-    },
-    {
-      "name": "Jeera Rice",
-      "price": "₹249",
-      "category": "rice_biryani",
-      "dietary": ["veg"],
-      "image": "https://images.unsplash.com/photo-1606791405792-1004ecbc74b2?w=400&q=80"
-    },
-    {
       "name": "Curd Rice",
       "price": "₹299",
       "category": "rice_biryani",
       "dietary": ["veg"],
       "image": "https://images.unsplash.com/photo-1603133872878-684f3b9fcb55?w=400&q=80"
-    },
-    {
-      "name": "Veg Pulao",
-      "price": "₹299",
-      "category": "rice_biryani",
-      "dietary": ["veg"],
-      "image": "https://images.unsplash.com/photo-1632823470161-64b3eebbc49b?w=400&q=80"
     },
     {
       "name": "Peas Pulao",
@@ -1603,14 +1568,14 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1589307004173-3c9528f8a5a0?w=400&q=80"
     },
     {
-      "name": "Papad Methi Jaisalmeri",
+      "name": "Papad Methi",
       "price": "₹249",
       "category": "rajasthani_main_course",
       "dietary": ["veg", "rajasthani"],
       "image": "https://images.unsplash.com/photo-1645111727589-6aebadc177a2?w=400&q=80"
     },
     {
-      "name": "Chana Masala",
+      "name": "Jaisalmeri Chana Masala",
       "price": "₹249",
       "category": "rajasthani_main_course",
       "dietary": ["veg", "rajasthani"],
