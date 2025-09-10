@@ -2175,7 +2175,8 @@ function updateSearchInfo(filteredItems, totalItems) {
 // Create dietary indicator HTML
 function createDietaryIndicators(dietary) {
     return dietary.map(tag => {
-        const symbol = tag === 'veg' ? 'V' : tag === 'vegan' ? 'VG' : 'N';
+        const symbol = tag === 'veg' ? 'V' : tag === 'vegan' ? 'VG' : tag === 'non-veg' ? 'N' : null;
+        if (!symbol) return '';
         return `<span class="dietary-tag ${tag}" title="${tag.toUpperCase()}">${symbol}</span>`;
     }).join('');
 }
