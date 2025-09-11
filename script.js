@@ -22,7 +22,7 @@ const menuData = {
     {
       "name": "Soya Chilly",
       "description": "Juicy soya chunks wok‑tossed in spicy chili‑garlic sauce with onions and capsicum",
-      "price": "349",
+      "price": "299",
       "image": "https://images.unsplash.com/photo-1582719478191-5b1e7a03e2f8?w=400&q=80",
       "origin": "",
       "dietary": ["veg"],
@@ -31,7 +31,7 @@ const menuData = {
     {
       "name": "Oriental Gold Coin",
       "description": "Golden‑fried bite‑sized discs topped with seasoned veggies and cheese, finished with Indo‑Chinese spices",
-      "price": "349",
+      "price": "375",
       "image": "https://images.unsplash.com/photo-1582719478191-5b1e7a03e2f8?w=400&q=80",
       "origin": "",
       "dietary": ["veg"],
