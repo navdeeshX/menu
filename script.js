@@ -1504,7 +1504,7 @@ const menuData = {
       "dietary": ["veg"]
     }
   ],
-  "indian_main_course_nonveg": [
+  "indian_main_course_non_veg": [
     {
       "name": "Chicken Masala ( Half)",
       "description": "Spiced chicken masala served half-portion.",
@@ -1512,7 +1512,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1604908177412-3a1c7f2f660a?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Chicken Jalfrezi",
@@ -1521,7 +1521,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1603079650118-8ad3ec90d66f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Handi Murg Navratan",
@@ -1530,7 +1530,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Keema Hyderabadi",
@@ -1539,7 +1539,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1603899122233-0c79f4e44f1f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Mutton Lal Maas",
@@ -1548,7 +1548,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1601050690598-9b06f25a551c?w=400&q=80",
       "origin": "Hyderabadi",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Dhuva Ghosh",
@@ -1557,7 +1557,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1627662057436-734c06c14a2f?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Mutton Rogan Josh",
@@ -1566,7 +1566,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1606787645488-87b29a64f234?w=400&q=80",
       "origin": "Kashmiri",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Butter Chicken (Full)",
@@ -1575,7 +1575,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1606788075731-5d59a95cdbf1?w=400&q=80",
       "origin": "North Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Butter Chicken (Half)",
@@ -1584,7 +1584,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1585238341993-bc0d6e53b82a?w=400&q=80",
       "origin": "North Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Chicken Masala (Full)",
@@ -1593,7 +1593,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1632823474391-1d37946d3f56?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Murg Nawabi",
@@ -1602,7 +1602,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1627662057419-6b77cb4b3c87?w=400&q=80",
       "origin": "Mughlai",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Chicken Kadai",
@@ -1611,7 +1611,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
       "origin": "North Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Safed Chicken",
@@ -1620,7 +1620,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1617196035317-3e8f1f0b20e4?w=400&q=80",
       "origin": "Mughlai",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Fish Curry",
@@ -1629,7 +1629,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1601050690599-9b06f25a551c?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Chicken Tikka Masala",
@@ -1638,7 +1638,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
       "origin": "Indian/UK",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
     {
       "name": "Egg Curry",
@@ -1647,7 +1647,7 @@ const menuData = {
       "image": "https://images.unsplash.com/photo-1606851091973-c5b7461f4e6a?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
-      "category": "indian_main_course_nonveg"
+      "category": "indian_main_course_non_veg"
     },
   ],
   "rice_biryani": [
@@ -2080,9 +2080,13 @@ function updateCategoryButtons() {
         <button class="category-btn active" data-category="all">All</button>
     `
      Object.keys(menuData).forEach(category => {
-        cat_data += `
-            <button class="category-btn" data-category="${category}">${capitalizeFirstLetter(category.replaceAll('_', ' '))}</button>
-        `
+        if (isVegOnly && category.indexOf("non_veg") !== -1) {
+          
+        } else {
+          cat_data += `
+              <button class="category-btn" data-category="${category}">${capitalizeFirstLetter(category.replaceAll('_', ' '))}</button>
+          `
+        }
     });
     const categoryNav = document.querySelector('.category-nav');
     categoryNav.innerHTML = cat_data
@@ -2164,6 +2168,8 @@ function getFilteredItems() {
           item.name.toLowerCase().includes(searchQuery) ||
           item.description.toLowerCase().includes(searchQuery)
       );
+    } else {
+      updateCategoryButtons()
     }
 
     // Collect items from selected categories
@@ -2177,7 +2183,6 @@ function getFilteredItems() {
             item.dietary.includes('veg') || item.dietary.includes('vegan')
         );
     }
-
     
     
     return items;
