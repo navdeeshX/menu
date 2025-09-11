@@ -2226,7 +2226,7 @@ function createMenuItemHTML(item) {
             <div class="item-content">
                 <div class="item-header">
                     <h3 class="item-name">${highlightedName}</h3>
-                    <span class="item-price">${item.price}</span>
+                    <span class="item-price">₹${item.price}</span>
                 </div>
                 <p class="item-description">${highlightedDescription}</p>
                 <div class="item-details">
@@ -2400,7 +2400,7 @@ window.addEventListener('scroll', () => {
     const exportData = allItems.map(item => ({
         name: item.name,
         description: item.description,
-        price: `₹${item.price}`,
+        price: item.price,
         category: item.category,
         dietary: item.dietary.join(', '),
         origin: item.origin
@@ -2462,7 +2462,7 @@ window.addEventListener('scroll', () => {
                                 onclick="toggleFavorite('${item.name.replace(/'/g, "\\'")}')">
                             ${isFavorite ? '❤️' : '🤍'}
                         </button>
-                        <span class="item-price">${item.price}</span>
+                        <span class="item-price">₹${item.price}</span>
                     </div>
                 </div>
                 <p class="item-description">${highlightedDescription}</p>
