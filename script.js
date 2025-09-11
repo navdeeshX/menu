@@ -2107,7 +2107,7 @@ function setupEventListeners() {
         if (searchQuery) {
           categoryNav.style.display = 'none'
         } else {
-          categoryNav.style.display = 'block'
+          categoryNav.style.display = 'flex'
         }
         renderMenu();
     });
@@ -2116,7 +2116,7 @@ function setupEventListeners() {
     clearSearchBtn.addEventListener('click', () => {
         searchInput.value = '';
         const categoryNav = document.querySelector('.category-nav');
-        categoryNav.style.display = 'block'
+        categoryNav.style.display = 'flex'
         searchQuery = '';
         renderMenu();
     });
