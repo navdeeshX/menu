@@ -1524,15 +1524,6 @@ const menuData = {
       "category": "indian_main_course_non_veg"
     },
     {
-      "name": "Handi Murg Navratan",
-      "description": "Rich handi-style chicken with mixed vegetables (Navratan).",
-      "price": "449",
-      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&q=80",
-      "origin": "Indian",
-      "dietary": ["non-veg"],
-      "category": "indian_main_course_non_veg"
-    },
-    {
       "name": "Keema Hyderabadi",
       "description": "Minced meat cooked with spices (keema).",
       "price": "549",
@@ -1547,24 +1538,6 @@ const menuData = {
       "price": "499",
       "image": "https://images.unsplash.com/photo-1601050690598-9b06f25a551c?w=400&q=80",
       "origin": "Hyderabadi",
-      "dietary": ["non-veg"],
-      "category": "indian_main_course_non_veg"
-    },
-    {
-      "name": "Dhuva Ghosh",
-      "description": "Chef's special mutton preparation (as listed).",
-      "price": "449",
-      "image": "https://images.unsplash.com/photo-1627662057436-734c06c14a2f?w=400&q=80",
-      "origin": "Indian",
-      "dietary": ["non-veg"],
-      "category": "indian_main_course_non_veg"
-    },
-    {
-      "name": "Mutton Rogan Josh",
-      "description": "Aromatic Kashmiri-style mutton Rogan Josh.",
-      "price": "499",
-      "image": "https://images.unsplash.com/photo-1606787645488-87b29a64f234?w=400&q=80",
-      "origin": "Kashmiri",
       "dietary": ["non-veg"],
       "category": "indian_main_course_non_veg"
     },
