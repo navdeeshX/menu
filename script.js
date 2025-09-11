@@ -188,7 +188,7 @@ const menuData = {
     {
       "name": "Mint Mojito",
       "description": "Classic mojito with fresh mint and soda.",
-      "price": "139",
+      "price": "129",
       "image": "https://images.unsplash.com/photo-1582458607941-4b3f97c3a6f2?w=400&q=80",
       "origin": "Global",
       "dietary": ["veg"],
@@ -289,7 +289,7 @@ const menuData = {
     {
       "name": "Poha / Upma",
       "description": "Traditional Indian breakfast made with flattened rice or semolina.",
-      "price": "145",
+      "price": "149",
       "image": "https://images.unsplash.com/photo-1632823474499-3e8f1f0b20e4?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
@@ -423,15 +423,6 @@ const menuData = {
     }
   ],
   "eggs": [
-    {
-      "name": "Boiled Egg",
-      "description": "Simple boiled egg served with salt and pepper.",
-      "price": "129",
-      "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
-      "origin": "Global",
-      "dietary": ["non-veg"],
-      "category": "eggs"
-    },
     {
       "name": "Boiled Egg Bhurji",
       "description": "Spicy Indian-style scrambled eggs.",
@@ -954,7 +945,7 @@ const menuData = {
     {
       "name": "Achaari Paneer Tikka",
       "description": "Paneer tikka marinated in pickling spices.",
-      "price": "279",
+      "price": "379",
       "image": "https://images.unsplash.com/photo-1606851091891-72f5d3c7ad5a?w=400&q=80",
       "origin": "Indian",
       "dietary": ["veg"],
@@ -1391,7 +1382,7 @@ const menuData = {
       "description": "Okra cooked with onions and Indian spices.",
       "image": "https://images.unsplash.com/photo-1629195067883-4d9b88c7b8f5?w=400&q=80",
       "origin": "Indian",
-      "price": "249",
+      "price": "299",
       "category": "indian_main_course_veg",
       "dietary": ["veg"]
     },
@@ -1517,7 +1508,7 @@ const menuData = {
     {
       "name": "Chicken Masala ( Half)",
       "description": "Spiced chicken masala served half-portion.",
-      "price": "449",
+      "price": "429",
       "image": "https://images.unsplash.com/photo-1604908177412-3a1c7f2f660a?w=400&q=80",
       "origin": "Indian",
       "dietary": ["non-veg"],
@@ -2112,12 +2103,20 @@ function setupEventListeners() {
     // Search input
     searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase();
+        const categoryNav = document.querySelector('.category-nav');
+        if (searchQuery) {
+          categoryNav.style.display = 'none'
+        } else {
+          categoryNav.style.display = 'block'
+        }
         renderMenu();
     });
 
     // Clear search
     clearSearchBtn.addEventListener('click', () => {
         searchInput.value = '';
+        const categoryNav = document.querySelector('.category-nav');
+        categoryNav.style.display = 'block'
         searchQuery = '';
         renderMenu();
     });
@@ -2155,15 +2154,23 @@ function updateActiveCategory(activeButton) {
 function getFilteredItems() {
     let items = [];
     
+    Object.values(menuData).forEach(category => {
+        items = items.concat(category);
+    });
+    
+    // Filter by search query
+    if (searchQuery) {
+      items = items.filter(item => 
+          item.name.toLowerCase().includes(searchQuery) ||
+          item.description.toLowerCase().includes(searchQuery)
+      );
+    }
+
     // Collect items from selected categories
-    if (currentCategory === 'all') {
-        Object.values(menuData).forEach(category => {
-            items = items.concat(category);
-        });
-    } else {
+    if (!searchQuery && currentCategory !== 'all') {
         items = menuData[currentCategory] || [];
     }
-    
+
     // Filter for vegetarian if toggle is on
     if (isVegOnly) {
         items = items.filter(item => 
@@ -2171,14 +2178,7 @@ function getFilteredItems() {
         );
     }
 
-    // Filter by search query
-    if (searchQuery) {
-        items = items.filter(item => 
-            item.name.toLowerCase().includes(searchQuery) ||
-            item.description.toLowerCase().includes(searchQuery) ||
-            item.origin.toLowerCase().includes(searchQuery)
-        );
-    }
+    
     
     return items;
 }
